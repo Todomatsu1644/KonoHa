@@ -9,7 +9,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 # Ботыг command prefix-тэй эхлүүлэх (жишээ: "!")
 bot = commands.Bot(
-    command_prefix='', 
+    command_prefix='!', 
     intents=discord.Intents.all(),
     help_command=None  # Default help командыг устгах
 )
